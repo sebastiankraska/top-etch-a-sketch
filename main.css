@@ -11,3 +11,9 @@ div#sketch {
     display: flex;
     flex-wrap: wrap;
 }
+
+div.pixel {
+    border: 1px solid red;
+    flex: 1 1 auto;
+    width: 9%;
+}
