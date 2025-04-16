@@ -2,7 +2,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 div#sketch {
@@ -16,7 +16,7 @@ div#sketch {
 div.pixel {
     border: 1px solid red;
     flex: 1 1 auto;
-    width: 5.75%;
+    width: 5.75%; /* must be 6.25% if border is disabled
     /* transition: background-color 0.5s; */
 }
 
