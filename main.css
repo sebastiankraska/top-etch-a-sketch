@@ -16,4 +16,9 @@ div.pixel {
     border: 1px solid red;
     flex: 1 1 auto;
     width: 9%;
+    /* transition: background-color 0.5s; */
 }
+
+div.pixel:hover {
+    background-color: bisque;
+  }
