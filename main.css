@@ -2,11 +2,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* box-sizing: border-box; */
 }
 
 div#sketch {
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     background-color: rgb(166, 255, 0);
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +16,7 @@ div#sketch {
 div.pixel {
     border: 1px solid red;
     flex: 1 1 auto;
-    width: 9%;
+    width: 5.75%;
     /* transition: background-color 0.5s; */
 }
 
