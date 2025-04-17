@@ -16,7 +16,7 @@ div#sketch {
 div.pixel {
     /* border: 1px solid red; */
     flex: 1 1 auto;
-    width: 60px;
+    /* width: 60px; */
     /* transition: background-color 0.5s; */
 }
 
