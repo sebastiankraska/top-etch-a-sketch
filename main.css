@@ -6,17 +6,17 @@ body {
 }
 
 div#sketch {
-    width: 600px;
-    height: 600px;
+    width: 960px;
+    height: 960px;
     background-color: rgb(166, 255, 0);
     display: flex;
     flex-wrap: wrap;
 }
 
 div.pixel {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     flex: 1 1 auto;
-    width: 5.75%; /* must be 6.25% if border is disabled
+    width: 60px; /* width: 5.75%; /* must be 6.25% if border is disabled */
     /* transition: background-color 0.5s; */
 }
 
