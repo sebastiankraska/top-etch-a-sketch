@@ -8,7 +8,7 @@ body {
 div#sketch {
     width: 960px;
     height: 960px;
-    background-color: white;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,6 +20,6 @@ div.pixel {
     /* transition: background-color 0.5s; */
 }
 
-div.pixel:hover {
+/* div.pixel:hover {
     background-color: bisque;
-  }
+  } */
