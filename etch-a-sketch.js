@@ -41,3 +41,10 @@ function createPixelGrid(input_size) {
 
 // create initial pixel grid
 createPixelGrid(20); 
+
+// test darkening of pixels
+function colorizePixel() {
+    const allPixels = document.querySelectorAll(".pixel");
+    allPixels.forEach(pixel => pixel.style.background = "grey");
+};
+colorizePixel();
