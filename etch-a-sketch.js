@@ -34,7 +34,7 @@ function createPixelGrid(input_size) {
         sketch_area.appendChild(sketch_pixel);
     }
     button.addEventListener('click', (event) => {
-        const inputValue = input.value;
+        const inputValue = input.value; // TODO: Limit maximum input to maybe 20 or 30 to protect user from horrible performance and avoid breaking the layout? Or generally: Is the bad performance (e.g. 70) normal?
         createPixelGrid(inputValue);
     })
 };
