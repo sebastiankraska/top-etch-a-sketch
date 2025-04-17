@@ -28,9 +28,9 @@ function createPixelGrid(input_size) {
     // Add pixels to container
     for (let i = 0; i < output_size; i++) {
         const sketch_pixel = document.createElement("div");
-        sketch_pixel.textContent = "X";
+        // sketch_pixel.textContent = "X";
         sketch_pixel.className = "pixel";
-        sketch_pixel.style.width = pixel_size + "px"; // TODO: is concatenating a "px" ugly?
+        sketch_pixel.style.width = (pixel_size - 1) + "px"; // TODO: is concatenating a "px" ugly? // pixel_size - 1 because every pixel has 0.5px border left and right
         sketch_area.appendChild(sketch_pixel);
     }
     button.addEventListener('click', (event) => {
